@@ -48,15 +48,14 @@ img {
     }
 
     /* Desktop layout */
-    @media screen and (min-width: 40rem) { 
     .site-id {
         grid-column: 1 / span 6;
         background-color: #033f5f;
     }
 
-    menu {
+    .menu {
         grid-column: 7 / span 6;
-        background-color: #033f5f;
+        background-color: #0b5f03;
     }
     .company {
         grid-column: 1 / span 8;
