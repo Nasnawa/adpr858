@@ -1,7 +1,7 @@
 :root {
     --primary-color: #033f5f; 
     --second-color: #007CBC;
-    --neutral-grey:var(#747e83); 
+    --neutral-grey: #747e83; 
     --neutral-light: #ffffff; 
     --highlight-color: #f5ba36; 
 }
@@ -25,8 +25,15 @@ h3 {
     font-size: 1.5rem;
     color: var(--primary-color);
 }
-p {
+p, .ul, ol {
     font-size: 1.25rem;
     line-height: 1.75rem;
     color: var(--neutral-grey);
+}
+
+/****** Layout ******/
+.container {
+    background-color: red;
+    width: min(95%, 75rem)
+    margin: 0 auto;
 }
