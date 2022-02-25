@@ -48,6 +48,7 @@ img {
     }
 
     /* Desktop layout */
+    @media screen and (min-width: 40rem) { 
     .site-id {
         grid-column: 1 / span 6;
         background-color: #033f5f;
@@ -61,7 +62,7 @@ img {
         grid-column: 1 / span 8;
         background-color: purple;
     }
-    .company {
+    .company-image {
         grid-column: 9 / span 4;
         background-color: yellow;
     }
