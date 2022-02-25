@@ -30,6 +30,9 @@ p, .ul, ol {
     line-height: 1.75rem;
     color: var(--neutral-grey);
 }
+img {
+    max-width: 100%;
+}
 
 /****** Layout ******/
 .container {
@@ -42,4 +45,25 @@ p, .ul, ol {
 }
 .container > * {
     grid-column: span 12;
+    }
+
+    /* Desktop layout */
+    @media screen and (min-width: 40rem) { 
+    .site-id {
+        grid-column: 1 / span 6;
+        background-color: #033f5f;
+    }
+
+    menu {
+        grid-column: 7 / span 6;
+        background-color: #033f5f;
+    }
+    .company {
+        grid-column: 1 / span 8;
+        background-color: purple;
+    }
+    .company {
+        grid-column: 9 / span 4;
+        background-color: yellow;
+    }
 }
