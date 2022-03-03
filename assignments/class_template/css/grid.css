@@ -49,7 +49,7 @@ img {
 
     /* Desktop layout */
     @media screen and (min-width: 40rem) { 
-        .col-span-3 {
+        .col-span-4 {
             grid-column: 1 span 4;
             background-color: blue;
         }
@@ -62,7 +62,21 @@ img {
             grid-column: 9; span 4;
             background-color: yellow;
         }
-        
+
+        .social-span-4 {
+            grid-column: 1 span 4;
+            background-color: purple;
+        }
+
+        .disclaimer-span-4 { 
+            grid-column: 5; span 4;
+            background-color: navajowhite;
+        }
+        .copyright-span-4 {
+            grid-column: 9; span 4;
+            background-color: pink;
+        }
+
 
 
 
