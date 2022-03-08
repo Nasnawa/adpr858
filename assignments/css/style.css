@@ -31,13 +31,13 @@ h3 {
         border: 5px solid bisque
     }
 
-a:link {
-    color: rgba(0, 0, 255, 0.425); 
+a:link, a:visited {
+    color: #9abcf8; 
     text-decoration: none;
 }    
 
 a:hover {
-    color: rgb(74, 74, 187); 
+    color: #6e8fc7; 
     text-decoration: underline;
 }  
 
@@ -70,11 +70,11 @@ a:hover {
     /***** Components ******/
     .button:link, .button:visited {
         color: white
-        background-color: rgba(0, 0, 255, 0.425);
-        text-align: center 
-        text-decoration: none
+        background-color: #6e8fc7 
+        text-align: center; 
+        text-decoration: none;
         padding: 1rem 1.75rem;
-        border-radious: .5rem
+        border-radius: .5rem;
         box-shadow: 0 .125rem .5rem rgba(0, 0, .15);
         display: inline-block;
         margin: 0 .25rem .25rem 0;
@@ -82,5 +82,5 @@ a:hover {
     }
 
     .button:hover { 
-        background-color: rgb(74, 74, 187);
+        background-color: #6e8fc7;
     } 
