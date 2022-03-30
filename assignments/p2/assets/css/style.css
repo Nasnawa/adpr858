@@ -1,0 +1,440 @@
+:root {
+    --primary-color: #e91390;
+    --second-color: #ff6600;
+    --neutral-black: black;
+    --neutral-light: #ffffff;
+}
+
+@font-face {font-family: 'CoffeeService';
+src: url('../fonts/31413D_0_0.eot');
+src: url('../fonts/31413D_0_0.eot?#iefix') format('embedded-opentype'),
+url('../fonts/31413D_0_0.woff2') format('woff2'),
+url('../fonts/31413D_0_0.woff') format('woff'),
+url('../fonts/31413D_0_0.ttf') format('truetype');}
+
+@font-face{font-family:DunkinSansBook;
+  src:url("../fonts/DunkinSans-Book.woff")}
+
+@font-face{font-family:DunkinSansDisplay;
+  src:url("../fonts/DunkinSans-Display.woff")}
+
+@font-face{font-family:DunkinSerifBold;
+  src:url("../fonts/DunkinSerif-Bold.woff")}
+
+html{
+  overflow-y: scroll;
+}
+body{
+  margin: 0;
+  padding: 0;
+  direction: ltr;
+  font-family:DunkinSansBook, serif, sans-serif;
+}
+a{
+  color: #000;
+  text-decoration: none;
+}
+a:hover{
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.fixHeader{
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  height: 150px;
+}
+
+.fixHeaderHeight{
+  height: 150px;
+}
+
+.colorBrand{
+  color: var(--primary-color);
+}
+.colorBrand2{
+  color: var(--second-color);
+}
+
+.brandName{
+  color: var(--second-color);
+  font-weight: bolder;
+  font-size: 40px;
+  font-family:DunkinSansDisplay, serif, sans-serif;
+}
+.topRibban{
+  background: var(--primary-color);
+  padding: 15px;
+  color:#FFFFFF;
+  text-align: center;
+  font-size: 18px;
+}
+.topRibban a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 7px;
+    border:2px solid var(--primary-color);
+    border-radius:30px;
+    min-width: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--neutral-black);
+    font-family:DunkinSansDisplay, serif, sans-serif;
+}
+.btnBG{
+    background: var(--primary-color);
+    color: var(--neutral-light) !important;
+}
+
+.btnTxt{
+    color: var(--primary-color) !important;
+}
+
+.btn2{
+    text-decoration: none;
+    padding: 10px;
+    border:2px solid var(--primary-color);
+    border-radius:30px;
+    min-width: 200px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--neutral-black);
+    font-family:DunkinSansDisplay, serif, sans-serif;
+}
+
+.locBtnSml{
+  text-decoration: none;
+  padding: 5px;
+  border:2px solid var(--primary-color);
+  border-radius:30px;
+  min-width: 150px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--neutral-black);
+  font-family:DunkinSansDisplay, serif, sans-serif;
+
+}
+
+.formStyle{
+    border: 2px solid var(--neutral-black);
+    padding: 7px;
+    min-width: 150px;
+    border-radius:30px;
+}
+.topNav{
+  padding: 10px;
+  text-align: right;
+  border-bottom: 1px solid #f9f9f9;
+}
+.nav{
+  padding: 10px;
+  font-family:DunkinSansDisplay, serif, sans-serif;
+}
+
+.colw-40{
+  width: 40%;
+}
+
+.colw-20{
+  width: 20%;
+}
+
+.navCol{
+  float: left;
+  padding: 10px 0;
+}
+
+.navCol ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navCol ul li{
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.textLeft{
+  text-align: left;
+}
+.textCenter{
+  text-align: center;
+}
+.textRight{
+  text-align: right;
+}
+
+
+.banner{
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding: 30px 0 0 0;
+  margin: 30px 0 0 0;
+}
+
+.banner .bh{
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 3px 0;
+    font-family:DunkinSansDisplay, serif, sans-serif;
+}
+
+.banner .bt{
+    font-size: 25px;
+}
+.nfItem{
+  margin: 0 auto 0 auto;
+  width: 966px;
+  margin-top: 100px;
+}
+.nfItem .nfBox{
+    border:1px solid tranparent;
+    padding: 10px;
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+
+.itemSection{
+    background-image: url('../images/somthin-fresh-dsktp.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 30px;
+    height: 320px;
+}
+
+.location{
+  background-image: url('../images/Mask Group 24.png');
+  background-repeat: no-repeat;
+  min-height: 400px;
+  padding-left: 750px;
+  padding-top: 30px;
+  text-align: center;
+  border-bottom:1px solid #ccc;
+}
+
+.linkContainer{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.qlink{
+  width:600px;
+  float: left;
+}
+
+.qlink ul{
+  padding: 0;
+  padding-right: 50px;
+  margin: 5px;
+  list-style: none;
+}
+
+.qlink ul li{
+  display: inline;
+  padding-right: 30px;
+  line-height: 32px;
+  font-size: 14px;
+  font-family:DunkinSansDisplay, serif, sans-serif;
+}
+
+.qlink ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.socialMedia{
+  width: 400px;
+  float: left;
+}
+
+.socialMedia ul{
+  padding: 0;
+  margin: 20px;
+  list-style: none;
+}
+
+.socialMedia ul li{
+  display: inline;
+  padding-right: 20px;
+}
+
+
+.prt{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.prt .prtline{
+  border-top: 1px solid #ccc;
+  width: 400px;
+  float: left;
+}
+
+.prt .prtTxt{
+  width: 200px;
+  float: left;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.prtItems{
+    text-align: center;
+    padding: 20px;
+}
+
+.footer{
+  border-top:1px solid #CCC;
+  width:1000px;
+  margin: 0 auto;
+  padding:20px;
+  text-align: center;
+}
+
+.footer ul{
+  padding: 0;
+  margin: 0 120px;
+  list-style: none;
+}
+
+.footer ul li{
+  display: inline;
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #ddd;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  color:#000;
+  line-height: 30px;
+}
+
+.signupHeader{
+  background-image: url('../images/Desktop_Headers_Registration.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 200px;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 70px;
+  font-family:DunkinSansDisplay, serif, sans-serif;
+}
+
+.signupContainer{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.appleBtn{
+  text-decoration: none;
+  padding:15px 20px;
+  border:2px solid #000;
+  border-radius:30px;
+  min-width: 360px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 17px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: var(--neutral-black);
+}
+
+.orSep{
+  text-align: center;
+  margin-bottom:30px;
+  margin-top: -20px;
+  background-color: #fff;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form label{
+    font-family:DunkinSansDisplay, serif, sans-serif;
+    font-size: 14px;
+}
+.signupFormControl{
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0 30px 0;
+  width: 380px;
+}
+.signupFormControlSm{
+  width: 160px !important;
+}
+
+.subText{
+  font-size: 12px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.subText2{
+  font-size: 14px;
+  font-family:DunkinSansDisplay, serif, sans-serif;
+}
+.subText2 a{
+  text-decoration: underline;
+}
+
+.btnSignup{
+  text-decoration: none;
+  padding:15px 20px;
+  border:2px solid var(--primary-color);
+  border-radius:30px;
+  min-width: 400px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 17px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 30px 0;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+
+.qlink1 ul{
+  padding: 0;
+  padding-right: 50px;
+  margin: 5px;
+  list-style: none;
+}
+
+.qlink1 ul li{
+  display: inline;
+  padding:0 20px;
+  line-height: 32px;
+  font-size: 12px;
+  border-right: 1px solid #ccc;
+  font-family:DunkinSansDisplay, serif, sans-serif;
+}
+
+.qlink1 ul li a{
+  text-decoration: none;
+  color: #000;
+}
