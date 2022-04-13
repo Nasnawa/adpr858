@@ -90,27 +90,32 @@ body > div.part2 > div.bio{
 
 }
 body > div.part2 > div.bio > h2{
-    margin: 0;  
     padding-top: 60px;
     font-size: 40px;
     font-family: auto;
 }
 
 
+
+
 .part3 {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  column-gap: 10px;
-  margin-top: -22px;
+   column-gap: 10px;
+    
+    background-color: #FFF4A3!important;
+    margin-top: -22px;
 }
 
 .skills{
-margin-right: 100px;
+  background-color: #FFF4A3!important;
+   
+    margin-right: 200px;
 line-height:1.5em;
 }
 
 body > div.part3 > div.skills{
-    padding-left: 100px;
+    padding-left: 200px;
     line-height: 1.5em;
     padding-top: 46px;
     margin-top: -0px;
