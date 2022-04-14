@@ -106,7 +106,6 @@ li a:hover {
     display: grid;
     grid-column: 8/ span 3;
     align-items: right;
-    margin-top: 50px;
   }
 }
 
@@ -118,8 +117,8 @@ li a:hover {
   width: 1300px;
   height: 5px;
   border: 15px white;
-  padding: 50px;
-  margin: 40px;
+  padding: 40px;
+  margin: 20px;
 }
 
 
