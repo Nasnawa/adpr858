@@ -50,6 +50,10 @@ body > ul{
 
 /*** Nav Menu ***/
 
+.topnav input[type=text] {
+  border: 1px solid #ccc;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -238,6 +242,17 @@ body > footer > div.socialMedia > h2{
 h1 {text-align: center;}
 
 
+.skills {
+  display: flex
+}
+
+.cardsk {
+  flex-basis: : 27.5%;
+  text-align: center;
+  margin: 5rem;
+  box-shadow: 0 .125rem .5rem rgba(0, 0, .15);
+}
+
 /*** other pages ***/
 
 .title {
@@ -296,7 +311,7 @@ h1 {text-align: center;}
 
 .english-section {
   display:flex
-  justify-content: center;
+   justify-content: center;
   flex-flow: row wrap;
 }
 .carden {
