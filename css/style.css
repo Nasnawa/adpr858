@@ -1,3 +1,6 @@
+img {
+  max-width: 100%;
+}
 body, html {
   height: 100%;
   margin: 0;
@@ -71,6 +74,14 @@ li a:hover {
   background-color: antiquewhite;
 }
 
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 
 /*** Header closer ***/
 
@@ -94,7 +105,6 @@ li a:hover {
 /*** Desktop Layout ***/
 @media screen and (min-width: 40rem) {
   .bio1 {
-    display: grid;
     grid-column: 2 / span 3;
     align-items: left;
     margin-top: 50px;
@@ -103,8 +113,7 @@ li a:hover {
 
   }
   .bio2 {
-    display: grid;
-    grid-column: 8/ span 3;
+    grid-column: 6/ span 6;
     align-items: right;
     margin-top: 30px;
   }
@@ -225,3 +234,91 @@ padding: 20px;
 body > footer > div.socialMedia > h2{
   padding-left: 14%;
 }
+
+h1 {text-align: center;}
+
+
+/*** other pages ***/
+
+.title {
+  text-align: center;
+  color: black;
+}
+
+.samples-section {
+  display:flex
+}
+.card {
+  flex-basis: 50%;
+  text-align: center;
+  margin: 5rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 .125rem .5rem rgba(0, 0, .15);
+  
+}
+
+.card-title {
+  margin: 0.75rem 0 0 0;
+  padding: 0 2rem 0.5rem;
+
+}
+
+.card-text {
+  margin: 0.5rem 0 1rem 0;
+  padding: 0 2rem 0.5rem;
+  text-align: center;
+
+}
+
+
+.button,
+.button:link, .button:visited {
+    color: white;
+    background-color: burlywood;
+    text-align: center; 
+    text-decoration: none !important; 
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, .15);
+    display: inline-block;
+    margin: 0 .25rem .25rem 0;
+    transition: background-color 0.5s ease;
+}
+
+.button:hover { 
+    background-color: white;
+    color: black;
+} 
+
+.connection-section {
+  display: flex;
+}
+
+.english-section {
+  display:flex
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.carden {
+  flex-basis: 27.5%;
+  text-align: center;
+  margin: 5rem;
+  padding-bottom: 2rem;
+  box-shadow: 0 .125rem .5rem rgba(0, 0, .15);
+  
+}
+
+.carden-title {
+  margin: 0.75rem 0 0 0;
+  padding: 0 2rem 0.5rem;
+
+}
+
+.carden-text {
+  margin: 0.5rem 0 1rem 0;
+  padding: 0 2rem 0.5rem;
+  text-align: center;
+
+
+
+ 
