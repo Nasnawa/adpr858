@@ -128,8 +128,6 @@ li a:hover {
   color: white;
   text-align: center;
   position: relative;
-  width: 1300px;
-  height: 5px;
   border: 15px white;
   padding: 40px;
   margin: 20px;
@@ -302,7 +300,7 @@ h1 {text-align: center;}
 }
 
 .button:hover { 
-    background-color: white;
+    background-color: antiquewhite;
     color: black;
 } 
 
