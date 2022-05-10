@@ -1,3 +1,9 @@
+.topnav {
+  width: 100%;
+  overflow: auto;
+
+}
+
 img {
   max-width: 100%;
 }
@@ -57,7 +63,7 @@ body > ul{
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10;
   overflow: hidden;
   background-color: burlywood;
 }
@@ -72,6 +78,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin-left: 4.5rem;
 }
 
 li a:hover {
@@ -83,8 +90,8 @@ li a:hover {
   padding: 6px;
   border: none;
   margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+  margin-right: 2rem;
+  font-size: 12px;
 }
 
 /*** Header closer ***/
@@ -260,7 +267,7 @@ h1 {text-align: center;}
 }
 
 .samples-section {
-  display:flex
+  display:flex;
 }
 .card {
   flex-basis: 50%;
@@ -310,8 +317,8 @@ h1 {text-align: center;}
 
 .english-section {
   display:flex
-   justify-content: center;
-  flex-flow: row wrap;
+  justify-content: center;
+
 }
 .carden {
   flex-basis: 27.5%;
@@ -321,6 +328,7 @@ h1 {text-align: center;}
   box-shadow: 0 .125rem .5rem rgb(116, 115, 115);
   
 }
+
 
 .carden-title {
   margin: 0.75rem 0 0 0;
